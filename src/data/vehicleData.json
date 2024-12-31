@@ -1,0 +1,125 @@
+{
+    "vehicles": [
+      {
+        "id": "1",
+        "year": 2022,
+        "make": "Honda",
+        "model": "Civic",
+        "trim": "Touring CVT",
+        "price": 32499,
+        "mileage": 15000,
+        "image": "honda/honda-civic.jpg",
+        "specs": {
+          "transmission": "Automatic",
+          "drivetrain": "FWD",
+          "fuelType": "Gasoline",
+          "bodyStyle": "Sedan"
+        },
+        "carfaxAvailable": true
+      },
+      {
+        "id": "2",
+        "year": 2021,
+        "make": "Toyota",
+        "model": "Camry",
+        "trim": "XSE",
+        "price": 34999,
+        "mileage": 20000,
+        "image": "toyota/toyota-camry.jpg",
+        "specs": {
+          "transmission": "Automatic",
+          "drivetrain": "FWD",
+          "fuelType": "Gasoline",
+          "bodyStyle": "Sedan"
+        },
+        "carfaxAvailable": true
+      },
+      {
+        "id": "3",
+        "year": 2023,
+        "make": "BMW",
+        "model": "4 Series",
+        "trim": "430i",
+        "price": 52999,
+        "mileage": 5000,
+        "image": "bmw/bmw.jpg",
+        "specs": {
+          "transmission": "Automatic",
+          "drivetrain": "RWD",
+          "fuelType": "Gasoline",
+          "bodyStyle": "Coupe"
+        },
+        "carfaxAvailable": true
+      },
+      {
+        "id": "4",
+        "year": 2022,
+        "make": "Mazda",
+        "model": "MX-5 Miata",
+        "trim": "Grand Touring",
+        "price": 35999,
+        "mileage": 8000,
+        "image": "mazda/mazda.jpg",
+        "specs": {
+          "transmission": "Manual",
+          "drivetrain": "RWD",
+          "fuelType": "Gasoline",
+          "bodyStyle": "Convertible"
+        },
+        "carfaxAvailable": false
+      },
+      {
+        "id": "5",
+        "year": 2021,
+        "make": "Toyota",
+        "model": "RAV4",
+        "trim": "XLE Premium",
+        "price": 36999,
+        "mileage": 25000,
+        "image": "toyota/toyota-rav4.jpg",
+        "specs": {
+          "transmission": "Automatic",
+          "drivetrain": "AWD",
+          "fuelType": "Gasoline",
+          "bodyStyle": "SUV"
+        },
+        "carfaxAvailable": true
+      },
+      {
+        "id": "6",
+        "year": 2022,
+        "make": "Honda",
+        "model": "Odyssey",
+        "trim": "EX-L",
+        "price": 41999,
+        "mileage": 18000,
+        "image": "honda/honda-odyssey.jpg",
+        "specs": {
+          "transmission": "Automatic",
+          "drivetrain": "FWD",
+          "fuelType": "Gasoline",
+          "bodyStyle": "Minivan"
+        },
+        "carfaxAvailable": true
+      },
+      {
+        "id": "7",
+        "year": 2023,
+        "make": "Ford",
+        "model": "F-150",
+        "trim": "XLT",
+        "price": 48999,
+        "mileage": 10000,
+        "image": "ford/ford-f.jpg",
+        "specs": {
+          "transmission": "Automatic",
+          "drivetrain": "4WD",
+          "fuelType": "Gasoline",
+          "bodyStyle": "Truck"
+        },
+        "carfaxAvailable": true
+      }
+    ]
+  }
+  
+  

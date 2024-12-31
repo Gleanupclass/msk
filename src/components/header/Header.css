@@ -1,0 +1,75 @@
+/* Custom styles for the header */
+.custom-header {
+  background-color: #000; /* Tailwind's gray-900 */
+}
+
+/* Override PrimeReact Menubar styles */
+/* .custom-menubar {
+  background: transparent !important;
+  border: none !important;
+}*/
+
+.custom-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text,
+.custom-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+  color: rgb(252 211 77) !important;
+}
+
+/* .custom-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+  background: rgba(233, 233, 227, 0.1) !important;
+}*/
+
+.custom-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text,
+.custom-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+  color: rgb(252 211 77) !important; /* Tailwind's yellow-400 */
+}
+
+/* Style for submenu items */
+/* .custom-menubar .p-submenu-list {
+  background-color: #1a202c !important; /* Tailwind's gray-900 */
+/*   border: none !important;
+}*/
+
+.custom-menubar .p-submenu-list .p-menuitem-link .p-menuitem-text,
+.custom-menubar .p-submenu-list .p-menuitem-link .p-menuitem-icon {
+  color: rgb(252 211 77) !important;
+}
+
+/*.custom-menubar .p-submenu-list .p-menuitem-link:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}*/
+
+.custom-menubar .p-submenu-list .p-menuitem-link:hover .p-menuitem-text,
+.custom-menubar .p-submenu-list .p-menuitem-link:hover .p-menuitem-icon {
+  color: rgb(252 211 77) !important; /* Tailwind's yellow-400 */
+}
+
+/* Custom button styles */
+.custom-button {
+  color: rgb(252 211 77) !important;
+  font-weight: bold !important;
+}
+
+.custom-button:hover {
+  color: #fbbf24 !important; /* Tailwind's yellow-400 */
+  /*background-color: transparent !important;*/
+}
+
+/* New styles for .p-menuitem-content a */
+ .custom-header .p-menubar .p-menuitem > .p-menuitem-content a ,.custom-header .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-text{
+  color: rgb(252 211 77) !important;
+  font-weight: bold !important;
+} 
+
+
+.spaced-menu-items .p-menuitem-link {
+  margin: 0 1rem; /* Adjust the value for more/less space */
+}
+
+/* PrimeReact Menubar adjustments */
+.custom-menubar .p-menuitem {
+  margin: 0 20px; /* Add margin between items */
+}
+
+.custom-menubar .p-menuitem-link:hover {
+background: rgba(0, 0, 0, 0.5); /* Example: dark transparent background */
+} 
